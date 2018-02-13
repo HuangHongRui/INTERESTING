@@ -217,7 +217,7 @@
      * 来句台词～
      */
     .preview_wrapper::after {
-      content: '皮卡～球～';
+      content: '祝大家新年快乐~皮卡皮卡';
       position: absolute;
       display: block;
       color: red;
@@ -225,6 +225,7 @@
       width: 100%;
       bottom: 0;
       text-align: center;    
+      font-weight: 900;
     }
     /*
      * 皮卡丘送给屏幕前的你，希望你喜欢。

@@ -30,6 +30,9 @@
     height: 100%;
     overflow: hidden;
     color: #f00;
+    font-size: 4vw;
+    font-weight: 900;
+    font-family: 'BenmoJianzi1033f6dca919bf5' !important;
   }
   
   .preview {
