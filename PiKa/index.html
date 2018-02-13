@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="./style.css">
+  <style id="pikaStyle"></style>
+  <script type="text/javascript" src="http://cdn.webfont.youziku.com/wwwroot/js/wf/youziku.api.min.js"></script>
+  <title>PIKAPIKAQIU</title>
+</head>
+
+<body>
+  <div class="code_wrapper">
+    <pre id="code"></pre>
+  </div>
+  <div class="preview_wrapper">
+    <div class="preview">
+      <div id="pika">
+        <div class="nose"></div>
+        <div class="eye left"></div>
+        <div class="eye right"></div>
+        <div class="cheek left"></div>
+        <div class="cheek right"></div>
+        <div class="upper_lip left"></div>
+        <div class="upper_lip right"></div>
+        <div class="lower_lip_wrapper">
+          <div class="lower_lip"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="actions">
+    <button data-speed="slow" class="button">Slow</button>
+    <button data-speed="normal" class="button">Normal</button>
+    <button data-speed="fast" class="button active">Fast</button>
+  </div>
+  <script src="./main.js"></script>
+  <script type="text/javascript">
+    $youziku.load("body", "71df35b1-a7c2-4236-b17c-5dd574dbde20", "TianZhen");
+    $youziku.draw();
+  </script>
+</body>
+
+</html>
